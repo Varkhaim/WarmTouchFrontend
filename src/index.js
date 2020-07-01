@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import NewsBox from "./components/NewsBox";
+import NewNewsBox from "./components/NewNewsBox";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <div>
+  <NewsBox />
+  <NewNewsBox />
+    </div>,
   document.getElementById('root')
 );
 
