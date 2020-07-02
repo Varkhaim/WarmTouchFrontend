@@ -34,11 +34,6 @@ class SingleNews extends Component {
         })
     }
 
-    shortenDateTime(datetime)
-    {
-
-    }
-
     render(){
         const item = this.props.item;
         return <li key={item.id}>
