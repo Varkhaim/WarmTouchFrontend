@@ -6,7 +6,7 @@ class CategoriesList extends Component{
     {
         super(props);
         this.state = {
-            listname : "Usługi",
+            listName : "Usługi",
             categories : [
                 {link: "#", name: "Masaże"},
                 {link: "#", name: "Pakiety"},
@@ -20,7 +20,7 @@ class CategoriesList extends Component{
 
     render()
     {
-        return (<div><h1 className="my-4">{this.state.listname}</h1>
+        return (<div><h1 className="my-4">{this.state.listName}</h1>
             <div className = "list-group" >
         {this.categoriesToRender}
                 </div></div>)

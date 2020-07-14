@@ -1,4 +1,9 @@
 import React, {Component} from 'react';
+import {
+    Route,
+    NavLink,
+    HashRouter
+} from "react-router-dom";
 
 class NavigationBarItem extends Component
 {
@@ -23,7 +28,7 @@ class NavigationBarItem extends Component
     {
         return (
             <li className={this.state.isActive ? "nav-item active" : "nav-item"}>
-                <a onClick={this.activateLink} className="nav-link" href={this.props.link}>{this.props.label}</a>
+                <NavLink to={this.props.link} className="nav-link">{this.props.label}</NavLink>
             </li>
         )
     }

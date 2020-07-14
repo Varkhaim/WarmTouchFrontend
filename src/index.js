@@ -2,20 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import NewsBox from "./components/NewsBox";
-import NewNewsBox from "./components/NewNewsBox";
 import NavigationBar from "./components/Navigation/NavigationBar";
-import CategoriesList from "./components/Shop/CategoriesList";
-import Carousel from "./components/Shop/Carousel/Carousel";
+import Footer from "./components/Footer/Footer";
+import Main from "./Main";
 
-ReactDOM.render(
-    <div>
-  <NewsBox />
-  <NewNewsBox />
-    </div>,
-  document.getElementById('root'),
-
-);
+// ReactDOM.render(
+//     <div>
+//   <NewsBox />
+//   <NewNewsBox />
+//     </div>,
+//   document.getElementById('root'),
+//
+// );
 
 ReactDOM.render(
     <NavigationBar />,
@@ -23,13 +21,28 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-    <CategoriesList />,
-    document.getElementById('categoriesList')
-)
+    <Main />,
+    document.getElementById('mainBody')
+);
+
+// ReactDOM.render(
+//     <CategoriesList />,
+//     document.getElementById('categoriesList')
+// )
+//
+// ReactDOM.render(
+//     <Carousel />,
+//     document.getElementById('carousel')
+// )
+//
+// ReactDOM.render(
+//     <ShopGrid />,
+//     document.getElementById('shopGrid')
+// )
 
 ReactDOM.render(
-    <Carousel />,
-    document.getElementById('carousel')
+    <Footer />,
+    document.getElementById('footer')
 )
 
 // If you want your app to work offline and load faster, you can change

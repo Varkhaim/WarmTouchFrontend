@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c0c156-876a-455a-8da3-f8395f53f93f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationBarItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/Carousel/Carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/Carousel/CarouselControls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/Carousel/CarouselInner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/Carousel/CarouselMain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/CategoriesList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/ShopItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/images/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/massage01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/massage02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shop/ShopGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/images/massage01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/images/massage02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NewsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ShopPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SingleNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SingleNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavigationBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavigationBarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CategoriesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CategoriesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/ShopItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/ShopItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="ReactComponent" />
       </list>
     </option>
   </component>
@@ -42,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,12 +57,13 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\warmtouch_front\public\images" />
+      <recent name="D:\Git\warmtouch_front\src\components\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Git\warmtouch_front\src\components\Shop\Carousel" />
       <recent name="D:\Git\warmtouch_front\src\components\Navigation" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Git\warmtouch_front\src\components\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,7 +134,15 @@
       <workItem from="1593649494658" duration="1992000" />
       <workItem from="1593698393630" duration="689000" />
       <workItem from="1593702925878" duration="1785000" />
-      <workItem from="1593704980106" duration="388000" />
+      <workItem from="1593704980106" duration="1795000" />
+      <workItem from="1593706904745" duration="586000" />
+      <workItem from="1593786306749" duration="1421000" />
+      <workItem from="1593787783780" duration="1444000" />
+      <workItem from="1593795599346" duration="1217000" />
+      <workItem from="1593801927295" duration="2073000" />
+      <workItem from="1593804031775" duration="1864000" />
+      <workItem from="1593869184623" duration="1732000" />
+      <workItem from="1594029835396" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1593613673863</created>
@@ -136,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593613673864</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="carousel fixed and converted to React component/s">
+      <created>1593705576522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593705576522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +180,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="carousel fixed and converted to React component/s" />
+    <MESSAGE value="Shop items are now taken from DB&#10;Added routing to navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shop items are now taken from DB&#10;Added routing to navbar" />
   </component>
 </project>

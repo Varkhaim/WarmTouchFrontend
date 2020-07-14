@@ -1,5 +1,10 @@
 import React, {Component} from "react";
 import NavigationBarItem from "./NavigationBarItem";
+import {
+    Route,
+    NavLink,
+    HashRouter
+} from "react-router-dom";
 
 class NavigationBar extends Component {
 
@@ -9,10 +14,10 @@ class NavigationBar extends Component {
         this.state = {
             title : "Ciepły Dotyk",
             items : [
-                {index: 0, link: '#', label: 'Główna', isActive: true},
-                {index: 1, link: '#', label: 'O mnie', isActive: false},
-                {index: 2, link: '#', label: 'Cennik', isActive: false},
-                {index: 3, link: '#', label: 'Kontakt', isActive: false}
+                {index: 0, link: '/home', label: 'Główna', isActive: false},
+                {index: 1, link: '/aboutme', label: 'O mnie', isActive: false},
+                {index: 2, link: '/shop', label: 'Cennik', isActive: false},
+                {index: 3, link: '/contact', label: 'Kontakt', isActive: false}
                 ]
             };
         this.itemsToRender = this.state.items.map(item =>
@@ -31,7 +36,9 @@ class NavigationBar extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ml-auto">
+                        <HashRouter>
                         {this.itemsToRender}
+                        </HashRouter>
                     </ul>
                 </div>
             </div>
