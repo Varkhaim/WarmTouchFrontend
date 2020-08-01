@@ -1,0 +1,15 @@
+.logoImg
+{
+    width: 250px;
+}
+
+ul.site-menu.main-menu.js-clone-nav.ml-auto
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site-navbar.site-navbar-target
+{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
