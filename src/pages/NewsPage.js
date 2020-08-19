@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
+import NewsBox from "./../components/News/NewsBox";
 
 class NewsPage extends Component {
 
     render()
     {
-        return (<div>"TEST"</div>)
+        return (<div className="news-page">
+            <NewsBox />
+        </div>)
     }
 }
 

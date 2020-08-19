@@ -31,7 +31,7 @@ render() {
                                     <li><NavLink className="nav-link" to="/about">O mnie</NavLink></li>
                                     <li><NavLink className="nav-link" to="/service">Usługi</NavLink></li>
                                     <li><NavLink className="nav-link" to="/gallery">Galeria</NavLink></li>
-                                    <li><NavLink className="nav-link" to="/blog">Newsy</NavLink></li>
+                                    <li><NavLink className="nav-link" to="/news">Newsy</NavLink></li>
                                     <li><NavLink className="nav-link" to="/contact">Kontakt</NavLink></li>
                             </ul>
                         </nav>
