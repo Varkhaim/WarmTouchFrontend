@@ -155,6 +155,7 @@
       <workItem from="1595767817296" duration="960000" />
       <workItem from="1596311568948" duration="840000" />
       <workItem from="1596327083578" duration="671000" />
+      <workItem from="1597828045492" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1593613673863</created>
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596311817145</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="news added&#10;added working hours to shop page (WIP)">
+      <created>1597828190774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597828190774</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +217,7 @@
     <MESSAGE value="carousel fixed and converted to React component/s" />
     <MESSAGE value="Shop items are now taken from DB&#10;Added routing to navbar" />
     <MESSAGE value="big update" />
-    <option name="LAST_COMMIT_MESSAGE" value="big update" />
+    <MESSAGE value="news added&#10;added working hours to shop page (WIP)" />
+    <option name="LAST_COMMIT_MESSAGE" value="news added&#10;added working hours to shop page (WIP)" />
   </component>
 </project>

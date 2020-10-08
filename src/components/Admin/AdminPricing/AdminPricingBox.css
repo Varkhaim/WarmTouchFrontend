@@ -1,0 +1,42 @@
+.news-box
+{
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+a.disabled
+{
+    pointer-events: none;
+    cursor: default;
+    color: rgba(128, 128, 128, 0.25);
+}
+
+.lp-column
+{
+    width: 5%
+}
+
+.category-column
+{
+    width: 20%
+}
+
+.name-column
+{
+    width: 15%
+}
+
+.price-column
+{
+    width: 10%
+}
+
+.duration-column
+{
+    width: 10%
+}
+
+.description-column
+{
+    width: 40%
+}

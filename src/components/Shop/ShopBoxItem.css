@@ -1,0 +1,19 @@
+.card.shopItem {
+    width: 100%;
+}
+
+.shopBoxNameColumn, .shopBoxPriceColumn, .shopBoxTextColumn
+{
+    padding: 10px;
+}
+
+.card-title.shopItem
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4.shopItemPrice
+{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

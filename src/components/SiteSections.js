@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Switch, Route, BrowserRouter} from "react-router-dom";
 import ShopPage from "../pages/ShopPage";
 import NewsPage from "../pages/NewsPage";
+import AdminPage from "../pages/AdminPage";
 import "./SiteSections.css";
 import AboutMePage from '../pages/AboutMePage';
 
@@ -19,8 +20,8 @@ class SiteSections extends Component {
                 <Route path="/service">
                     <ShopPage />
                 </Route>
-                <Route path="/gallery">
-         
+                <Route path="/admin">
+                    <AdminPage />
                 </Route>
             </Switch>
             </div>

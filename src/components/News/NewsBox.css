@@ -1,0 +1,12 @@
+.news-box
+{
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+a.disabled
+{
+    pointer-events: none;
+    cursor: default;
+    color: rgba(128, 128, 128, 0.25);
+}

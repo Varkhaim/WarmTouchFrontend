@@ -1,0 +1,75 @@
+.card-header.shopItems 
+{
+    font-family: Thrynn;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    padding-left: 30px;
+    border-style: none;
+}
+
+.card-header.shopItems h2 a
+{
+    color: #000000;        
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    border-style: none;
+}
+
+.shop-items-default
+{
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: Thrynn;
+    src: url(../../fonts/thryn.ttf);
+}
+
+.shopBoxNameColumn
+{
+  width: 20%;
+}
+
+.shopBoxPriceColumn
+{
+  width: 10%;
+}
+
+.shopBoxTextColumn
+{
+  width: 70%;
+}
+
+.pricelist
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pricelist th
+{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pricelist tr
+{
+    border-top: 1px solid black;
+}
+
+.pricelist tr.otherRow
+{
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+/* .pricelist tr:nth-child(even)
+{
+    background-color: #e0ffdd;
+}
+
+.pricelist tr:nth-child(odd)
+{
+    background-color: #f7fff7;
+} */

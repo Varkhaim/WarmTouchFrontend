@@ -6,6 +6,7 @@ import BlocksCover from "../components/BlocksCover";
 import AppFooter from "../components/AppFooter";
 import SiteSections from "../components/SiteSections";
 import "./App.css";
+import {withRouter} from "react-router-dom";
 
 class App extends Component {
 render() {
@@ -22,4 +23,4 @@ render() {
 )}
 }
 
-export default App;
+export default withRouter(App);

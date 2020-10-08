@@ -1,0 +1,46 @@
+.news-card-type
+{
+    color: white;
+    margin-right: 5px;
+    padding: 3px;
+    border-radius: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+
+.news-card-type.important-type
+{
+    background-color: red;
+}
+
+.news-card-type.info-type
+{
+    background-color: green;
+}
+
+.news-card-type.pricing-type
+{
+    background-color: goldenrod;
+}
+
+.news-card-time
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.news-card-body
+{
+    white-space: pre-wrap;
+    overflow: hidden ;
+    max-height: 200px;
+    padding: 5px;
+}
+
+.news-card
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

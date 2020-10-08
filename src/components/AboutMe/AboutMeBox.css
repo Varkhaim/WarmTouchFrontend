@@ -1,0 +1,18 @@
+.aboutme-box
+{
+    align-content: center;
+    
+}
+
+img.aboutme-image
+{
+    float: left;
+    align-self: center;
+    width: 200px;
+    height: auto;
+}
+
+span.aboutme-span
+{
+    float: left;
+}
